@@ -56,7 +56,7 @@
         <td>{{$row->notes}}</td>
         <td>
         
-       <a href="{{URL::to('/edit-employee/'.$row->id)}}"><input type="button" name="add" value="Edit"></a>
+       <a href="{{URL::to('/edit-client/'.$row->id)}}"><input type="button" name="add" value="Edit"></a>
       </td>
         </tr>
         @endforeach
